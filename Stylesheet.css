@@ -14,6 +14,9 @@
     padding: 20px;
     text-decoration: underline red 3px;
 }
+h4{
+    font-size: 12px;
+}
 
 .all{
     padding: 10px;
@@ -22,6 +25,9 @@
     background-color: rgb(230, 231, 240);
     border-color: rgb(64, 9, 119);
     border-radius: 10px;
+}
+.all ul li{
+    list-style: circle;
 }
 
 .wave {
