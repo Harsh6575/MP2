@@ -48,3 +48,28 @@ h4{
     60% { transform: rotate( 0.0deg) }  
     100% { transform: rotate( 0.0deg) } 
 }
+
+header{
+    /* position: fixed; */
+    position: sticky;
+    top: 10px;
+}
+.navbar{
+    background-color: rgb(138, 185, 255);
+}
+
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+
+.navbar li a{
+    padding: auto;
+    text-decoration: none;
+    color: black;
+}
