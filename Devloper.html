@@ -3,21 +3,16 @@
 <style>
     .dev {
         margin: 20px;
-        padding: 30px;
+        padding: 10px;
         border: 3px solid gray;
         border-radius: 18px;
         background-color: rgb(236, 255, 184);
     }
 
-    img {
-        height: auto;
-        width: 200px;
-    }
-
     .hp {
         background-color: aqua;
         border: 10px solid;
-        font-size: 24px;
+        font-size: 15px;
         margin: 20px;
         text-align: center;
         padding: 10px;
@@ -25,6 +20,41 @@
 
     .about {
         align-items: flex-start;
+    }
+
+    .dev img {
+        height: 130px;
+        width: 130px;
+        display: flex;
+        align-items: center;
+    }
+
+    @media (min-width:430px) {
+        .dev {
+            text-align: center;
+            margin: 20px;
+            padding: 30px;
+            border: 3px solid gray;
+            border-radius: 18px;
+            background-color: rgb(236, 255, 184);
+        }
+
+        .hp {
+            background-color: aqua;
+            border: 10px solid;
+            font-size: 24px;
+            margin: 20px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .about {
+            align-items: flex-start;
+        }
+
+        .dev img {
+            margin: auto;
+        }
     }
 </style>
 
@@ -43,20 +73,8 @@
             </span>
         </h4>
         <br>
-        <!-- <div class="dev">
-            <img src="DSC_0437.jpg" alt="harsh">
-            <p>
-                Name:- Harsh Vansjaliya
-                <br><br>
-                Contact No:- +91 7984762533
-                <br><br>
-                Facebook:- <a href="https://www.facebook.com/harsh.vansjaliya">Harsh Vansjaliya</a>
-                <br><br>
-                Instagram:- <a href="https://www.instagram.com/mr.hppatel_777/">mr.hppatel_777</a>
-            </p>
-        </div> -->
-        <div class="about">
-            <img src="DSC_0437.jpg" height="200" wigth="200" alt="harsh" class="img1" align="left">
+        <div class="dev">
+            <img src="DSC_0437.jpg" alt="harsh" height="200px" width="200px">
             <p>
                 Name:- Harsh Vansjaliya
                 <br><br>

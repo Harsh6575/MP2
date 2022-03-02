@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" href="Stylesheet.css">
-<!-- <link rel="javascript" href="mpl.js"> -->
+<link rel="stylesheet" href="navbar.css">
 
 <head>
     <meta charset="UTF-8">
@@ -35,6 +35,11 @@
                             Contact us
                         </a>
                     </li>
+                    <li>
+                        <a href="#developer">
+                            About Developer
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -43,11 +48,26 @@
                 METRO PLY LAM
             </span>
         </h4>
-        <div class="all" id="about">
+        <div class="all" style="font-weight: bold;">
             Hi there!!<span class="wave">👋</span>
             <p>
-                Greetings from Metro Ply Lam.
+                <script>
+                    var d = new Date();
+                    var time = d.getHours();
+
+                    if (time < 12) {
+                        document.write("<b>Good Morning!</b>");
+                    }
+                    if (time > 12 && time < 20) {
+                        document.write("<b>Good Afternoon!</b>");
+                    }
+                    if (time > 24) {
+                        document.write("Good Evening! </b>");
+                    }
+                </script> from Metro Ply Lam.
             </p>
+        </div>
+        <div class="all" id="about">
             <ul>
                 <li>
                     We are plywood wholeseller located in Vadodara.
@@ -63,8 +83,27 @@
         </div>
         <div class="all" id="services">
             <h4>
-                Brands Available at our shop:--
+                Plywood Brands Available at our shop:--
             </h4>
+            <details>
+                <summary style="text-decoration: underline;">
+                    METROCLUB WATERPROOF (720)
+                </summary>
+                Thickness:--
+                <br>
+                <li>
+                    19mm:-- 8*4 , 7*4
+                </li>
+                <li>
+                    12mm:-- 8*4 , 7*4
+                </li>
+                <li>
+                    9mm:-- 8*4 , 7*4
+                </li>
+                <li>
+                    6mm:-- 8*4 , 7*4
+                </li>
+            </details>
             <details>
                 <summary style="text-decoration: underline;">
                     METROCLUB
@@ -147,7 +186,7 @@
                 For Rate and other inquiry -- Contact:- 9512325250 -- Margilbhai
             </marquee>
         </div>
-        <div class="all">
+        <div class="all" id="developer">
             <h4>
                 About Developer <a href="Devloper.html">Click here.</a>
             </h4>
@@ -156,14 +195,3 @@
 </body>
 
 </html>
-<!-- <table>
-    <th>
-        19 mm :--
-    </th>
-    <td>
-        8*4 ,
-    </td>
-    <td>
-        8*3 ,
-    </td>
-</table> -->
