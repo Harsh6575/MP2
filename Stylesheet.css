@@ -67,6 +67,11 @@ body{
 }
 
 a{
-    padding-left: 20px;
     color: white;
+}
+
+.sc{
+    margin: auto;
+    padding: 6px;
+    border: 2px solid white;
 }
