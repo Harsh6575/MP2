@@ -7,12 +7,15 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.container-fluid{
+    background-image: url('https://images.unsplash.com/photo-1629150028398-7639d1703c62?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80');
+}
+
 .maindiv{
     padding-top : 20px;
     display: flex;
     flex-direction: column;
     border: 5px solid gray;
-    background-image: url('https://images.unsplash.com/photo-1629150028398-7639d1703c62?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80');
 }
 
 @media(max-width:310px){
@@ -68,4 +71,11 @@ body{
 
 .sc{
     margin: 5px;
+}
+
+.navbar{
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
 }
